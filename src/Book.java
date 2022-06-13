@@ -24,5 +24,9 @@ public class Book {
     public Author getAuthor() {
         return this.author;
     }
+    @Override
+    public String toString() {
+        return bookName + " " + publicationYear + " " + author.getFirstName() + " " + author.getLastName();
+    }
 
 }

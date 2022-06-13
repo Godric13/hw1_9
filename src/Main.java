@@ -14,6 +14,9 @@ public class Main {
 
         Book secondBook = new Book("Second Book", "3033", secondAuthor);
 
+        System.out.println("myBook = " + myBook);
+
+
     }
 
 
